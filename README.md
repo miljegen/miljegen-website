@@ -5,6 +5,6 @@
 - [x] buy миље.срб domain(yes, that's a valid domain)
 - [x] start working on the main page
 - [ ] work on miljegen дућан(webshop)
-- [ ] buy more old tv's
+- [ ] buy more old TVs
 - [ ] place miljes on them
 - [ ] make the world a better place
