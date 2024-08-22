@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <style>
+        #test-milje {
+            position: fixed;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+        }
+    </style>
+    <script async>
+        window.addEventListener("message", (event) => {
+            if (event.data.extensionDetected) {
+                const elementToHide = document.getElementById("element-id");
+                if (elementToHide) elementToHide.style.display = "none";
+            }
+        });
+    </script>
+    <title>миљеген</title>
 </head>
 <body>
+    <img id="test-milje" src="test-milje.png" alt="не би требало да видиш ову слику...">
     <h1>миљеген</h1>
     <h2>званична страница</h2>
     <p>бојлерплејт хихи</p>
